@@ -61,9 +61,9 @@ SELECT DATENAME(MONTH, order_date) AS month_name,
        COUNT(DISTINCT order_id) AS total_orders
 FROM pizza_sales
 GROUP BY DATENAME(MONTH, order_date);
-Revenue Share
+##Revenue Share
 
-By Category:
+##By Category:
 
 Classic – ₹220,053.10
 
@@ -86,9 +86,9 @@ XL – ₹14,076.00
 XXL – ₹1,006.60
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Top & Bottom Products
+##Top & Bottom Products
 
-Top 5 by Revenue:
+##Top 5 by Revenue:
 
 The Thai Chicken Pizza – ₹43,434.25
 
@@ -100,7 +100,7 @@ The Classic Deluxe Pizza – ₹38,180.50
 
 The Spicy Italian Pizza – ₹34,831.25
 
-Bottom 5 by Revenue:
+##Bottom 5 by Revenue:
 
 The Brie Carre Pizza – ₹11,588.50
 
@@ -113,7 +113,7 @@ The Mediterranean Pizza – ₹15,360.50
 The Spinach Pesto Pizza – ₹15,596.00
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Power BI Dashboard
+##Power BI Dashboard
 
 Page 1 – Overview
 
